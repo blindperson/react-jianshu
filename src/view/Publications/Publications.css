@@ -1,0 +1,204 @@
+.pub-root{
+    margin-top: 60px;
+}
+.banner-background {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(90deg,
+#cfebe6,#99dcd1);
+}
+.publications {
+    position: relative;
+    padding: 0 0 40px;
+    width: 960px;
+    margin: 0 auto;
+}
+.banner .logo {
+    width: 48px;
+    height: 46px;
+    cursor: pointer;
+}
+.publications .banner .logo-font {
+    width: 129px;
+    cursor: pointer;
+}
+.publications .banner {
+    height: 100px;
+    padding: 25px 0 0 20px;
+}
+.publications .banner .title {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 8px;
+    vertical-align: middle;
+} 
+.publications .banner .slogan {
+
+    margin-left: 8px;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #41867a;
+}
+.publications .banner .help {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    color: 
+    #41867a;
+}
+.aside{
+    padding-left: 15px;
+}
+.publications .aside .category:first-child {
+    padding-top: 40px;
+}
+.publications .aside .category {
+    padding-top: 55px;
+}
+.aside .category .title {
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: 
+    #333;
+}
+.publications .aside .category .navigation a:hover {
+    background-color: 
+    hsla(0,0%,94%,.6);
+}
+.publications .aside .category .navigation a {
+    display: block;
+    padding: 12px 8px;
+    font-size: 15px;
+    color: #41867a;
+    border-top: 1px solid #f0f0f0;
+} 
+.publications .aside .category .question {
+    padding: 12px 0;
+    border-top: 1px solid  #f0f0f0;
+} 
+.publications .aside .category .sub-title {
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+.publications .aside .category .intros {
+    margin-top: 4px;
+    font-size: 12px;
+    color:#999;
+}
+.aside .category .question a {
+    font-size: 14px;
+    color:  #41867a;
+}
+.aside .category .social {
+    position: relative;
+    padding: 12px 0;
+    border-top: 1px solid#f0f0f0;
+    font-size: 0;
+}
+.aside .category .contact {
+    padding: 12px 0;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid#f0f0f0;
+}
+.aside .category .contact a {
+    color: #41867a;
+}
+
+/* 右侧 */
+.recommended-users {
+    position: relative;
+    clear: both;
+    padding-top: 40px;
+}
+.recommended-users .title {
+    margin: 0 0 20px 0;
+    padding-left: 10px;
+    border-left: 4px solid #70B6AB;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    color: #333333;
+}
+.recommended-users .page-change {
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: 
+    #41867A;
+}
+.recommended-users .user {
+    position: relative;
+    margin: 0 10px 10px 0;
+    padding: 20px 10px;
+    display: flex;
+    width: 350px;
+    height: 200px;
+    border: 1px solid #F0F0F0;
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: 0.2s ease; 
+}
+.recommended-users .user .avatar {
+    float: left;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 1px solid   #F0F0F0;
+}
+.flexBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recommended-users .user .user-info .name, .recommended-users .user .user-info .text, .recommended-users .user .user-info .latest-article {
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.user .user-info .name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+}
+.recommended-users .user .user-info .intros {
+    margin-top: 5px;
+    height: 40px;
+    font-size: 14px;
+    color:#333333;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    /* white-space:wrap;  */
+}
+.recommended-users .user .user-info {
+    margin-left: 10px;
+    width: 244px;
+}
+.recommended-users .user .user-info .latest-article {
+    display: block;
+    font-size: 14px;
+    color:  #999999;
+}
+.recommended-users .user .user-info .text {
+    display: block;
+    margin: 7px 0;
+    font-size: 14px;
+    color:  #999999;
+}
+.user .user-info .link {
+    position: absolute;
+    bottom: 8px;
+    font-size: 14px;
+    color:#41867A;
+}
+.recommended-users .user:hover {
+    margin: -2px 10px 12px 0;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.1);
+}

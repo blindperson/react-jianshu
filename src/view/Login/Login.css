@@ -1,0 +1,38 @@
+.sign_up{
+    z-index: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 56px;
+	background: #eee;
+} 
+.center{
+    width: 400px;
+	height: 300px;
+	margin: 100px auto;
+	padding-top: 20px;
+	background: #fff;
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+.btnSub{
+    width: 220px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff; 
+	border-radius: 15px;
+	margin: 10px auto;
+	text-align: center;
+}
+.input{
+    display: block;
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	margin: 20px auto;
+    color: #777; 
+}
+.input input{
+    border: solid 1px #ccc;
+}

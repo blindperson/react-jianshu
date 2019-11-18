@@ -1,0 +1,162 @@
+.navbar{
+    background-color:#fff; 
+    border-bottom: solid 1px #f0f0f0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+.width-limit{
+    min-width: 768px;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.logo{
+    float:left;
+    height: 56px;
+    padding: 0;
+}
+nav .logo img {
+    height: 100%;
+    vertical-align: middle;
+}
+.btn{
+    display:inline-block;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 6px 12px;
+    -moz-user-select: none;
+}
+/* 写文章 */
+.write-btn {
+    float: right;
+    width: 100px;
+    height: 40px;
+    line-height: 24px;
+    margin: 8px 12px 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color:  #fff;
+    background-color:#ea6f5a;
+}
+nav .write-btn:focus, nav .write-btn:hover {
+    color:  #fff;
+    background-color: #ec6149;
+}
+nav .ic-write {
+    margin-right: 6px; 
+}
+ 
+/* 注册 */
+nav .sign-up {
+    float: right;
+    width: 80px;
+    height: 38px;
+    line-height: 24px;
+    margin: 9px 5px 0 20px;
+    border: 1px solid  rgba(236,97,73,.7);
+    border-radius: 20px;
+    font-size: 15px;
+    color: #ea6f5a;
+    background-color: transparent;
+    transition: .4s ease-in;
+}
+nav .sign-up:hover{
+    background-color: rgba(245, 245, 245,0.8);
+}
+ 
+/* 登陆 */
+nav .log-in {
+    float: right;
+    margin: 11px 13px 0 10px;
+    font-size: 15px;
+}
+nav .log-in, nav .log-in:hover {
+    color:  #969696;
+}
+
+.betaPic{
+    float: right;
+    height: 55px;
+    padding: 15px 0px;
+    margin: 0 12px;
+}
+.betaPic img{
+    width: 100%;
+    height: 100%;
+}
+.style-mode{
+    float: right;
+    box-sizing: content-box;
+}
+.style-mode-btn {
+    float: right;
+    line-height: 20px;
+    padding: 17px 10px;
+    font-size: 24px;
+    color: 
+    #969696;
+}
+/* 左侧 */
+.container {
+    height: 58px; 
+    margin-right: auto;
+    margin-left: auto; 
+    padding-right: 15px; 
+    width: 960px; 
+}
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav li{
+    line-height: 58px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+.tab{
+    padding: 0 10px;
+}
+.active{
+    color: #ea6f5a;
+}
+.tab:hover{
+    background-color: #eee;
+}
+
+nav form {
+    position: relative; 
+}
+.search input{
+    width: 180px;
+    height: 38px;
+    padding: 0 40px 0 20px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 40px;
+    background: #eee;
+    transition: width 0.5s ease;
+}
+.anticon-search{
+    position: absolute;
+    right: 5px;
+    top: 15px; 
+    padding: 7px;
+    /* transition: all 0.5s ease; */
+}
+.search input:focus{
+    width: 240px; 
+}
+.anticon-search-active{
+    background-color: #666;
+    color: white;
+    border-radius: 50%;
+}

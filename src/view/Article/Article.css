@@ -1,0 +1,120 @@
+.article-root{
+    margin-top: 50px;  
+    background-color: #f9f9f9;
+}
+.mainBody{
+    width: 100%; 
+    height: 100%;
+}
+.secondContainer{ 
+    /* position: relative; */
+    margin-right: auto;
+    margin-left: auto; 
+    padding-right: 15px; 
+    width: 960px; 
+    margin-top: 50px; 
+}
+.mask{ 
+    height:10px;
+    background-color: #f9f9f9;
+} 
+.white{
+    background-color: white;
+}
+.secondTitle{
+    font-size: 30px;
+    font-weight: 700;
+    word-break: break-word; 
+    margin-bottom: .5em; 
+    padding-left: 20px;
+}
+.secondAuthor{
+    display: flex;
+    padding-left: 15px;
+}
+.secondAvatar img{
+    display: block;
+    border-radius: 50%;
+    border: 1px solid#eee;
+    min-width: 48px;
+    min-height: 48px;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+.isConcern{
+    color:#ec7259;
+    background-color:white; 
+    padding: 2px 9px;
+    font-size: 12px;
+    border-radius: 50px;
+    user-select: none;
+    border: 1px solid #ec7259;
+    transition: all .2s cubic-bezier(.645,.045,.355,1);
+    margin-left: 15px;
+}
+.isConcern:hover { 
+    background-color: #fef8f7;
+    border-color: #e25d43;
+}
+.secondAuthorMessage{
+    display: flex;
+    flex-direction: column;
+}
+.detailImgWrap{
+    margin-top: 20px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 480;
+}
+.jutiNum span{
+    margin-right: 10px;
+    color: #666;
+    font-size: 13px;
+}
+.guanggao{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://oimagec1.ydstatic.com/image?id=-7967313335452811426&product=adpublish&w=520&h=347");
+} 
+.asideSecond section{
+    margin-bottom: 20px;
+    background-color: white;
+}
+.msgArt{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 10px;
+    align-items: center;
+    border-bottom: solid 1px #eee;
+}
+.setPadding{
+    margin-top: 15px; 
+}  
+.recommand{
+    padding: 16px;
+}
+.recommand .nickname{
+    width: 90px;
+    /* white-space: normal; */
+}
+.recommendArt{
+    font-size: 20px;
+    font-weight: 500;
+    border-left: solid 5px red; 
+    padding-left: 5px;  
+}
+.readNum{ 
+    margin:8px 0px;
+    font-size:13px;
+    color:#969696;
+}
+.marginTop{
+    margin-top: 50px;
+    padding: 10px 20px;
+}
